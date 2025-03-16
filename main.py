@@ -37,12 +37,12 @@ if st.session_state.page == 'pag1':
                 Abaixo estarão algumas prévias dos resultados desse estudo.
         '''
         st.markdown(text)
-        st.image('./site_portifolio/images/analise_serie.png')
+        st.image('./images/analise_serie.png')
         text = '''
                 Conseguiu ver que claramente houve um aumento a partir de 2015? E como a variação desse produto disparou significativamente?
         '''
         st.markdown(text)
-        st.image('./site_portifolio/images/visao_geral_dados_quant.png')
+        st.image('./images/visao_geral_dados_quant.png')
 
     with col2:
         st.markdown('## :gray[Dados do Enem - :material/menu_book:]')
@@ -52,7 +52,7 @@ if st.session_state.page == 'home':
     col1, col2 = st.columns([0.6, 1.7])
 
     with col1:
-        st.image('./site_portifolio/images/perfil.jpg')
+        st.image('./images/perfil.jpg')
     with col2:
         st.markdown("""
             <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
